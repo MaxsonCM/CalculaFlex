@@ -18,6 +18,7 @@ class ResultActivity : BaseActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
+
         return true
     }
 

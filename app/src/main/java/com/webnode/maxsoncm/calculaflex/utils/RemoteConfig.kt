@@ -16,6 +16,7 @@ object RemoteConfig {
         mFirebaseRemoteConfig?.setDefaults(R.xml.remote_config_defaults)
         return mFirebaseRemoteConfig!!
     }
+
     fun remoteConfigFetch(): Task<Void> {
         //var cacheExpiration: Long = 3600
         var cacheExpiration: Long = 720
@@ -24,4 +25,5 @@ object RemoteConfig {
         }
         return getFirebaseRemoteConfig().fetch(cacheExpiration)
     }
+
 }

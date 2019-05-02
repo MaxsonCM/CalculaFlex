@@ -25,6 +25,7 @@ class DecimalTextWatcher ( editText: EditText, val totalDecimalNumber: Int = 2):
     override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
     }
 
+
     private fun getTotalDecimalNumber():String{
         val decimalNumber = StringBuilder()
         for(i in 1..totalDecimalNumber){

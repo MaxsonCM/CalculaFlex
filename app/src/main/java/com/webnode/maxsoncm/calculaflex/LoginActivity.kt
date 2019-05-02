@@ -13,7 +13,6 @@ class LoginActivity : BaseActivity() {
 
     private lateinit var mAuth: FirebaseAuth
 
-
     private val newUserRequestCode = 1
 
 

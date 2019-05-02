@@ -25,6 +25,7 @@ class FormActivity : BaseActivity() {
     private val firebaseReferenceNode = "CarData"
     private val defaultClearValueText = "0.0"
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form)
